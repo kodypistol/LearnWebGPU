@@ -436,7 +436,7 @@ deviceDesc.uncapturedErrorCallbackInfo.callback = onDeviceError;
 ```
 
 ````{caution}
-This callback info **does not have a `mode` field** because contrary to other callbacks, this one is en **event handler** that may be called repeatedly (as opposed to a *"future"* handler that is invoked only once).
+This callback info **does not have a `mode` field** because contrary to other callbacks, this one is an **event handler** that may be called repeatedly (as opposed to a *"future"* handler that is invoked only once).
 
 ```
 // Definition of the WGPUUncapturedErrorCallbackInfo struct in webgpu.h
